@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saga</title>
+    <link rel="stylesheet" href="pepipam.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <link href="pepipam1.html" rel="import" />
+</head>
+<body>
+    <body>
+        <header class="header" id="inicio">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"/></svg>
+            <img src="menu.svg" alt="" class="menú" style="opacity: 1;">
+            <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Productos</a>
+            <a href="#expertos">Misión, visión y objetivos</a>
+            <a href="#contacto">Contacto</a>
+            </nav>
+            <nav class="contenedor head">
+            <h1 class="titulo">Pepi-PAN</h1>
+            <p class="copy">Comercialización de panificados teniendo en cuenta siempre la calidad y dedicación artesanal.</p>
+          
+            
+            
+            </nav>
+        </header>
+        <main>
+            <section class="services contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="compu.svg" alt="">
+                <div class="compu-servicio">
+                    <div class="service">
+                    <h3 class="n-service"><span class="number">1</span>Local</h3>
+                    <p>Asesoramiento y venta de los panificados para diversos eventos.</p>
+                    </div>
+                    <div class="service">
+                    <h3 class="n-service"><span class="number">2</span>Aporte del pan</h3>
+                    <p>Son hidratos de carbono complejos, su bajo aporte de grasas, es una buena fuente de fibra, también aporta
+                    minerales y vitaminas del grupo B.</p>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <center>
+            <section class="gallery" id="portafolio">
+                <div class="contenedor">
+                <h2 class="subtitulo">Productos:</h2>
+                <div class="fila">
+                   
+                    <div class="columna" style="background-color: rgb(248, 223, 186);" border="1" >
+                        <h3>ROSCA</h3>
+                    <img src="3tres.jpg"  width="207" height="350"alt=""  >
+                
+                    <input type="text" class="pepi" value="S/ 0.30" disabled="">
+                    <input type="number" class="pepi" name="pepe" id="pepe" value="0" onchange="clase()">
+                   <br>
+                </div>
+                
+                    <div class="columna" style="background-color: rgb(248, 223, 186);" border="1">
+                       <h3>INTEGRAL</h3>
+                    <img src="4cuatro.jpg" width="207" height="350" alt=""  >
+                
+                    <input type="text" class="pepi" value="S/ 0.20" disabled="">
+                    <input type="number" class="pepi" name="pepe1" id="pepe1" value="0" onchange="clase()">
+                    <br>
+              </div>
+                    <div class="columna"style="background-color: rgb(248, 223, 186);" border="1" >
+                        <h3>FRANCES</h3>
+                    <img   src="1uno.jpg"  width="207" height="350"  alt="">
+                
+                    <input type="text" class="pepi" value="S/ 0.10" disabled="">
+                    <input type="number" class="pepi" name="pepe2" id="pepe2" value="0" onchange="clase()">
+                    <br>
+                </div>
+                <div class="fila">
+                    <div class="columna"  style="background-color: rgb(248, 223, 186);" border="1" > 
+                        <h3>BAGUETE</h3>
+                    <img src="2dos.jpg"width="207" height="350"  alt="" >
+                
+                    <input type="text" class="pepi" value="S/ 0.50" disabled="">
+                    <input type="number" class="pepi" name="pepe3" id="pepe3" value="0" onchange="clase()">
+                    </div>
+                
+                    <div class="columna"  style="background-color: rgb(248, 223, 186);" border="1" >
+                        <h3>BOLLO</h3>
+                     <img src="5cinco.jpg"  width="207" height="350"alt="" >
+                    
+                    <input type="text" class="pepi" value="S/ 0.30" disabled="">
+                    <input type="number" class="pepi" name="pepe4" id="pepe4" value="0" onchange="clase()">
+                    </div>
+             
+                    <div class="columna"  style="background-color: rgb(248, 223, 186);" border="1">
+                        <h3>CARIOCA</h3>
+                    <img src="6seis.jpg"  width="207" height="350"alt="" >
+                
+                    <input type="text" class="pepi" value="S/ 0.40" disabled="">
+                    <input type="number" class="pepi" name="pepe5" id="pepe5" value="0" onchange="clase()">
+                    </div>
+                </div>
+             </div>
+            </center>
+            </section>
+            <section class="imagen-light">
+            <img src="x.svg" alt="" class="close">
+          
+            </section>
+            <center>
+               
+                <table class="tbl_venta" border="1">
+                    <thead >
+                      <tr style="border: black;">
+                        <th scope="col">#</th>
+                        <th scope="col">ID del producto</th>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">PVP</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row " style="border: black;">1</th>
+                            <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="1-3413421" min="1" disabled="">
+                            </td>
+                        <td id="txt_descripcion">Rosca</td>
+                        <td><input type="number" name="txt_cod_producto111" id="txt_cod_producto111" disabled=""></td>
+                        <td <label="" for="">-
+                            <input type="text" id="txt_precio222" class="textright" value="S/. 0.30" disabled="">
+                        </td>
+                        <td <label="" for="">-
+                            <input type="text" id="txt_precio333" class="textright" disabled="">
+                        </td>
+                        <td <label="" for="">-
+                            <input type="text" id="txt_precio_total333" class="textright" disabled="">
+                        </td>
+                      </tr>
+                      <tr>
+                      </tbody>
+                        <tbody>
+                        <th scope="row" style="border: black;">2 </th>
+                        
+                            <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="2-98567" min="1" disabled="">
+                            </td>
+                            <td id="txt_descripcion">Integral</td>
+                            <td><input type="text" name="txt_cod_producto222" id="txt_cod_producto222" disabled=""></td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio444" class="textright" value="S/. 0.20" disabled="">
+                            </td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio555" class="textright" disabled="">
+                            </td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio_total555" class="textright" disabled="">
+                            </td>
+                        
+                      </tr>
+                      <tr>
+                    
+                    </tbody>
+                    <tbody>
+                        <th scope="row" style="border: black;">3</th>
+                        
+                            <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="3-786876" min="1" disabled="">
+                            </td>
+                            <td id="txt_descripcion">Frances</td>
+                            <td><input type="text" name="txt_cod_producto2221" id="txt_cod_producto2221" disabled=""></td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio4441" class="textright" value="S/. 0.10" disabled="">
+                            </td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio5551" class="textright" disabled="">
+                            </td>
+                            <td <label="" for="">-
+                                <input type="text" id="txt_precio_total5551" class="textright" disabled="">
+                            </td>
+                        
+                      </tr>
+                    </tbody>
+                    <tbody>
+                      <th scope="row" style="border: black;">4</th>
+                        
+                      <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="4-876876" min="1" disabled="">
+                      </td>
+                      <td id="txt_descripcion">Baguete</td>
+                      <td><input type="text" name="txt_cod_producto22212" id="txt_cod_producto22212" disabled=""></td>
+                      <td <label="" for="">-
+                          <input type="text" id="txt_precio44412" class="textright" value="S/. 0.50" disabled="">
+                      </td>
+                      <td <label="" for="">-
+                          <input type="text" id="txt_precio55512" class="textright" disabled="">
+                      </td>
+                      <td <label="" for="">-
+                          <input type="text" id="txt_precio_total55512" class="textright" disabled="">
+                      </td>
+                  
+                </tr>
+            </tbody>
+            <tbody>
+                <th scope="row" style="border: black;">5</th>
+                        
+                <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="5-22173" min="1" disabled="">
+                </td>
+                <td id="txt_descripcion">Bollo</td>
+                <td><input type="text" name="txt_cod_producto22213" id="txt_cod_producto22213" disabled=""></td>
+                <td <label="" for="">-
+                    <input type="text" id="txt_precio44413" class="textright" value="S/. 0.30" disabled="">
+                </td>
+                <td <label="" for="">-
+                    <input type="text" id="txt_precio55513" class="textright" disabled="">
+                </td>
+                <td <label="" for="">-
+                    <input type="text" id="txt_precio_total55513" class="textright" disabled="">
+                </td>
+            
+          </tr>
+        </tbody>
+        <tbody>
+          <th scope="row" style="border: black;">6</th>
+                        
+          <td><input type="text" name="txt_cant_producto" id="txt_cant_producto" value="6-781613" min="1" disabled="">
+          </td>
+          <td id="txt_descripcion">Carioca</td>
+          <td><input type="text" name="txt_cod_producto222135" id="txt_cod_producto222135" disabled=""></td>
+          <td <label="" for="">-
+              <input type="text" id="txt_precio444135" class="textright" value="S/. 0.40" disabled="">
+          </td>
+          <td <label="" for="">-
+              <input type="text" id="txt_precio555135" class="textright" disabled="">
+          </td>
+          <td <label="" for="">-
+              <input type="text" id="txt_precio_total555135" class="textright" disabled="">
+          </td>
+ 
+    </tbody>
+                   
+          <tr style="background-color:lightskyblue">
+            <th class="textright">Total a pagar</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="txt_cant_producto666" id="txt_cant_producto666" min="1" disabled=""></td>
+        </tr>
+                  </table>
+                <label for="">
+                    <h3><button onclick="greg()">COMPRAR</button></31>
+                    <script src="pepipam1.js"> </script>
+                </label>
+                        
+                       
+                        
+            </center>
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Misión y visión:</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="Mis.svg" alt="">
+                        <h3 class="n-expert">La panadería busca satisfacer las exigencias de todos los consumidores habituales y potenciales ofreciendo productos a
+                        base de harinas y sémolas de trigo elaborados con los mas altos estándares de calidad.</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="Vis.svg" alt="">
+                        <h3 class="n-expert">Ser reconocida como una empresa líder y en continuo crecimiento comprometida a ofrecer productos de la mas alta calidad
+                        innovando constantemente con productos a la vanguardia logrando la fomentación de empleo y la expansión de puntos de
+                        venta.</h3>
+                    </div>
+                </section>
+            </section>
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Objetivos:</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="chester.svg" alt="">
+                        <h3 class="n-expert">Vender productos de materia prima con la mas alta calidad.</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="chester2.svg" alt="">
+                        <h3 class="n-expert">Garantizar una excelente atención al cliente</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="chester3.svg" alt="">
+                        <h3 class="n-expert">Ser una empresa reconocida mundialmente por la calidad y excelencia de nuestros servicios.</h3>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Pepi-PAN</h2>
+                    <p>Ubicación: Jr. Dos de mayo 1360 (Frente a 'Mordisco') Huánuco-Perú</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Pepi-PAN-102154822202047" class="social-media-icon">
+                    <i class="bx bxl-facebook"></i>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class="bx bxl-instagram"></i>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+        <script src="pepipam.js"></script>
+        
+    
+    </body>
+</body>
+</html>
